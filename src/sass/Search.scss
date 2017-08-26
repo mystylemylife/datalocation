@@ -1,0 +1,76 @@
+  .search {
+      m: 20px 0 20px 0;
+      
+  } // .array {
+  //     p: 10px;
+  //     cursor: pointer;
+  //     fz: 14px;
+  //     c: #666;
+  // }
+  // .array li {
+  //     cl: both;
+  //     h: 40px;
+  //     lh: 40px;
+  // }
+  // .array li b {
+  //     w: 60px;
+  //     fl: left;
+  //     ta: left;
+  //     mr: 40px;
+  // }
+  // .array li span {
+  //     w: 80px;
+  //     fl: left;
+  // }
+  // .filter-button {
+  //     ta: center;
+  //     mt: 20px;
+  //     button {
+  //         w: 100px;
+  //         bg: #f22d37;
+  //         bd: 0;
+  //         &:hover {
+  //             bg: #f22d37;
+  //             op: .8;
+  //         }
+  //     }
+  // }
+  // .search .el-input-group__append, .el-input-group__prepend{
+  //   color:#333;
+  //   border-color:#e93c45;
+  //   background:#fff;
+  // }
+  // .search .el-input__inner{
+  //   border-color:#e93c45;
+  // }
+  .searchwrap {
+      w: 577px;
+      mb:0!important;
+      .el-input-group__prepend {
+          bd: 0;
+          bg: #eaeaea;
+      }
+      .el-input-group__append {
+          bg: #e93c45;
+          bd: 0;
+      }
+      input {
+          w: 500px;
+          bd: 0; // bg: #f2f4f6;
+          bd: 1px solid #d1dbe5!important;
+          h: 40px;
+      }
+      .button-right {
+          w: 77px;
+          h: 40px;
+          bd: 0;
+
+          span {
+              c: #fff;
+              bd: 0;
+          }
+          .el-icon-search {
+              c: #fff;
+          }
+      }
+  }

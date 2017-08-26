@@ -1,0 +1,104 @@
+// 重置复选框样式
+.el-checkbox__input.is-checked .el-checkbox__inner {
+    bg: #e93c45;
+    bdc: #d84238;
+}
+
+.el-checkbox__inner {
+    mr: 10px;
+    &:hover {
+        bdc: #bfcbd9;
+    }
+}
+
+// 重置fontawesome样式
+.fa-star {
+    c: #fff;
+    bd: 1px solid red;
+}
+
+.list {
+    ul {
+        bg: #fff;
+        fz: 14px;
+        // m: 0 20px;
+    }
+    li {
+        h: 45px;
+        lh: 45px;
+        ofl: hidden;
+        bdb: 1px solid #dfe6ec;
+        transition: background .3s ease, height .4s ease, opacity .4s ease;
+        p: 0 10px 0 10px;
+        border-radius: 3px;
+        pos:relative;
+        &.listactive {
+            bg: #fff2f3;
+        } 
+        .name {
+            fl: left;
+        }
+        .data {
+            fl: right;
+            .icon{
+                mr:15px;
+            }
+        }
+        .icon-star {
+            fl: right;
+        }
+
+    }
+}
+
+.showfinish {
+    p: 20px 0 20px 20px;
+    button {
+        bd: 0;
+    }
+    .el-button--primary {
+        bg: #e93c45;
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
+
+.finishlist {
+    opacity: .5;
+    .name{
+        mt:-2px;
+    }
+    .name-text {
+        td: line-through;
+        // pos:relative;
+        line-height: 20px;
+        va: top;
+        display: inline-block;
+        .time{
+            pos:absolute;
+            l:48px;
+            b:3px;
+            td: none;
+        }
+    }
+}
+
+// 显示隐藏状态
+// .state-enter,
+// .state-leave {
+//     height: 0;
+//     opacity: 0;
+// }
+
+// .after-enter,
+// .after-leave {
+//     height: 0;
+//     opacity: 0;
+// }
+
+// .state-active-enter,
+// .state-active-leave {
+//     height: 0;
+//     opacity: 0;
+// }

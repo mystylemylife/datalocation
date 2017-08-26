@@ -1,0 +1,238 @@
+.sidebar {
+    size: 0 calc(100% - 125px);
+    fl: right;
+    pos: fixed;
+    r: 0;
+    t: 125px;
+    bg: #fff;
+    trs: width .8s;
+    display: flex;
+    flex-direction: column;
+    &.sidebaractive {
+        w: 367px;
+    }
+}
+
+.sidebar-icon {
+    size: 367px 50px;
+    lh: 50px;
+    p: 0 20px;
+    bg: #e93c45;
+    ofl: hidden;
+    i {
+        fz: 26px;
+        c: #fff;
+        mr: 43px;
+        mt: 18px;
+        va: middle;
+        cursor: pointer;
+        fl: left;
+        &:hover {
+            op: .9;
+        }
+    }
+    .icon-litter {
+        mr: 0;
+    }
+}
+
+.sidebar-scroll {
+    ofl-x: hidden; // h: calc(100% - 130px)
+    flex: 1;
+}
+
+.sidebar-top {
+    size: 367px 55px;
+
+    lh: 55px;
+    ofl: hidden;
+    fz: 16px;
+    p: 0 15px 0 20px;
+
+    bdb: 1px solid #ebebeb;
+    bg: #fff;
+    pos: relative;
+    fw: normal;
+
+    box-sizing: border-box;
+    .icon-star {
+        fl: right;
+        mr: 5px;
+        mt: 5px;
+    }
+}
+
+.sidebar-middle {
+    w: 355px;
+    ofl: hidden;
+    li {
+        p: 0 20px 0 40px;
+        pos: relative;
+        .icon {
+            pos: absolute;
+            l: 20px;
+            t: 17px;
+        }
+    }
+    .li-input {
+        h: 48px;
+        lh: 48px;
+        .el-input {
+            w: 315px;
+            input {
+                bdw: 0 0 1px 0;
+                border-radius: 0;
+            }
+        }
+    }
+    .li-text {
+        p: 13px 10px 0 45px;
+        lh: 22px;
+        min-height: 35px; // height: auto;
+        fz: 14px;
+        ofl: hidden; // width: 367px;
+        size: 367px auto;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        word-break: break-all;
+        .icon {
+            t: 16px;
+        }
+    }
+    .li-sel {
+        p: 13px 10px 0 45px;
+        word-wrap: break-word;
+        word-break: break-all;
+        .el-select {
+            w: 308px;
+        }
+        .icon {
+            t: 18px;
+        }
+        .select-text {
+            lh: 22px;
+            d: block;
+            pt: 6px;
+            fz: 14px;
+        }
+    }
+}
+
+.sidebar-description {
+    w: 367px;
+    ofl: hidden;
+    li {
+        p: 10px 40px 16px 45px;
+        pos: relative;
+        trs: opacity .1s;
+        word-wrap: break-word;
+        word-break: break-all;
+        fz: 14px;
+        .icon-head {
+            pos: absolute;
+            l: 20px;
+        }
+        .head {
+            l: 10px;
+            t: 13px;
+        }
+        .icon-close {
+            pos: absolute;
+            r: 12px;
+            t: -4px;
+            size: 35px 47px;
+        }
+        .icon-close:before {
+            content: "\E60C";
+            fz: 14px;
+            fw: 400;
+        }
+    }
+}
+
+.sidebar-bottom {
+    w: 367px;
+    ofl: hidden;
+    box-sizing: border-box;
+    bdt: 1px solid #ebebeb;
+    p: 20px 10px 0;
+
+
+
+    .textarea {
+        // padding: 3px;
+        outline: 0;
+        border: 1px solid #bfcbd9;
+        font-size: 12px;
+       
+      p:10px 0 10px 10px;
+        word-wrap: break-word;
+        word-break: break-all;
+        overflow: hidden;
+        border-radius: 6px;
+        &:empty:after {
+            content: attr(placeholder);
+        }
+    }
+    .sidebar-bottom-time {
+        fz: 12px;
+        ta: center;
+        lh: 30px;
+    }
+}
+
+.el-select-dropdown__item.selected,
+.el-select-dropdown__item.selected.hover {
+    bg: #e93c45;
+}
+
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover,
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+    bg: #fff2f3;
+}
+
+// .el-icon-date,{
+//     display: none;
+// }
+.el-icon-date:before,
+.el-icon-time:before {
+    content: "\E60C";
+}
+
+// 点击上传
+.sidebar-middle li.upload {
+    padding: 13px 10px 0 45px;
+
+
+    .icon-file {
+        top: 21px;
+    }
+}
+
+.fileinput {
+    bdb: 1px solid #bfcbd9;
+    w: 312px;
+
+    ta: left;
+    lh: 36px;
+    fz: 14px;
+    c: #97a8be;
+}
+
+.sidebar-middle .el-upload-list__item {
+    p: 0;
+}
+
+.el-upload-list__item-name {
+    pl: 0;
+}
+
+.el-upload__tip {
+    c: #e93c45;
+    fw: 500;
+}
+
+.el-upload-list__item {
+    transition: none;
+}

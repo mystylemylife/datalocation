@@ -1,0 +1,60 @@
+.top{
+	bg:#f2f2f2;
+	p:0 30px;
+	fz:14px;
+	h:45px;
+	lh:45px;
+	c:#999;
+	.actions{
+		fl:right;
+		.message{
+			mr:60px;
+			pos:relative;
+			fl:right;
+			cursor:pointer;
+			i{
+				vertical-align: -4px;
+				ml:10px;
+			}
+			.num{
+				padding:0 10px;
+				bg:#e93c45;
+				c:#fff;
+				h: 16px;
+				lh:16px;
+				fz:12px;
+				border-radius: 8px;
+				pos: absolute;
+				l:25px;
+				t:4px;
+			}
+		}
+	}
+	.user{
+		fl:right;
+		cursor:pointer;
+		mr:20px;
+	}
+	.link{
+		fl:right;
+		a{
+			color:#999;
+			ml:10px;
+			&:hover{
+				td: underline;
+			}
+
+		}
+	}
+}
+.el-dropdown-menu{
+	m:0;
+	p:0;
+
+}
+.el-dropdown{
+	c:#999;
+}
+.el-dropdown-menu__item{
+	fz:14px;
+}

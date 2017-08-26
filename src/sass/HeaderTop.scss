@@ -1,0 +1,137 @@
+#mall_header {
+    padding: 0 30px;
+    background: #fff;
+}
+
+#mall_header .header_box {
+    height: 80px
+}
+
+#mall_header .subtitle .nav {
+    float: right
+}
+
+#mall_header .subtitle h1 {
+    float: left;
+    font-size: 24px;
+    margin: 13px 0 0 20px;
+    padding-left: 20px;
+    height: 54px;
+    line-height: 54px;
+    font-weight: 400;
+    color: #666;
+    border-left: 1px solid #e6e6e6
+}
+
+#mall_header .logo {
+    float: left;
+    width: 200px;
+    height: 80px;
+    background: url(http://www.interest.zhaoganguat.com/statics/img/f866672e.logo.gif) no-repeat 0 14px;
+}
+
+#mall_header .nav {
+    overflow: hidden;
+    float: left;
+    margin-left: 100px
+}
+
+#mall_header .nav li {
+    float: left;
+    height: 36px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 16px;
+    margin-right: 10px
+}
+
+#mall_header .nav li a {
+    color: #333;
+    display: block;
+    height: 36px;
+    padding: 0 25px;
+    line-height: 36px;
+    border-radius: 4px
+}
+
+.dropDown {
+    background-color: #fff;
+    position: absolute;
+    z-index: 101;
+    padding: 6px 0 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 5px;
+    top: 55px;
+    left: 0;
+    display: none;
+    min-width: 100%;
+    margin: 0;
+}
+
+.dropDown dt {
+    color: #999;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+#mall_header .nav li .dropDown dd {
+    margin-left: 0;
+    a {
+        color: #333;
+        background-color: transparent;
+        font-size: 14px;
+        height: auto;
+        line-height: 200%;
+        border: 0 none;
+        text-align: left;
+        padding: 0 30px 0 15px;
+        margin: 0;
+    }
+}
+
+#mall_header .nav li .dropDown dd a:hover {
+    border: 0 none;
+    color: #fb4d00;
+}
+
+#mall_header .nav li:hover .dropDown {
+    display: block;
+}
+
+#mall_header .nav {
+    margin-left: 0;
+    overflow: inherit;
+}
+
+#mall_header .nav li {
+    padding: 0px;
+    height: 80px;
+    position: relative;
+    white-space: nowrap;
+}
+
+#mall_header .nav li a {
+    height: 77px;
+    line-height: 77px;
+    border-bottom: 3px solid #fff;
+    border-radius: 0;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+}
+
+#mall_header .nav li:hover a {
+    position: relative;
+    z-index: 102;
+    color: #333;
+    border: 1px solid #ddd;
+    border-bottom-color: #fff;
+    border-radius: 5px 5px 0 0;
+    margin-top: 20px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 14px;
+}

@@ -1,0 +1,135 @@
+ .filter {
+     p: 0 20px;
+     fz: 14px;
+     .el-collapse-item {
+         .el-collapse-item__header {
+             .el-icon-arrow-right {
+                 pos: absolute;
+                 t: 16px;
+                 l: 74px;
+                 &:before {
+                     content: "\E604";
+                 }
+             }
+         }
+     }
+     .el-collapse-item.is-active {
+         .el-collapse-item__header {
+             .el-icon-arrow-right {
+                 transform: rotate(0deg);
+                 &:before {
+                     content: "\E607";
+                 }
+             }
+         }
+     }
+ }
+
+ .array {
+     p: 10px 0 10px 0;
+     cursor: pointer;
+     fz: 14px;
+     c: #666;
+ }
+
+ .array li {
+     cl: both;
+     h: 30px;
+     lh: 30px;
+     .sure {
+         // bg:#e93c45;
+         bd: 0;
+         h: 30px;
+         va: 7px;
+         p: 0 15px;
+         ml: 10px;
+         &:hover {
+             opacity: .9;
+             filter: alpha(opacity=90)
+         }
+
+         span {
+             lh: 31px;
+             vertical-align: top;
+         }
+     }
+ }
+
+ .array li b {
+     d: inline-block; // ta: right;
+     
+
+         w: 85px;
+         background: #f2f4f6;
+         text-align: center;
+         font-weight: normal;
+         mr: 10px;
+    
+ }
+
+ .array li span {
+     d: inline-block;
+     ta: center;
+ }
+
+ .array li span.on {
+     c: #20A0FF;
+ }
+
+ .filter-ul {
+     // pl: 20px;
+     li {
+         ofl: hidden;
+         mb: 10px;
+     }
+     b,
+     span {
+         fl: left;
+         lh: 24px;
+     }
+     .title {
+         w: 85px;
+         background: #f2f4f6;
+         text-align: center;
+         font-weight: normal;
+         mr: 10px;
+     }
+     span {
+         p: 0px 15px;
+         mr: 10px;
+         cursor: pointer;
+         bd: 1px solid transparent;
+         ta: center;
+         pos: relative;
+         trs: all .1s; // &:hover {
+         //     op: .9;
+         //     bg:#f22d37;
+         //     c:#fff;
+         // }
+         &.active {
+             bdc: #f22d37;
+             .icon-checked {
+                 d: block;
+             }
+         }
+     }
+ } // 重置折叠面板样式
+ .el-collapse-item__header {
+     pos: absolute;
+     t: 20px;
+     l: 600px;
+     bd: 0;
+ }
+
+ .el-collapse {
+     bd: 0
+ }
+
+ .el-collapse-item:last-child {
+     mb: 0
+ }
+
+ .el-collapse-item__wrap {
+     bd: 1px solid #dfe6ec;
+     bg: 0;
+ }

@@ -1,0 +1,113 @@
+.icon {
+    d: inline-block;
+    bg: url(./assets/icon.png) no-repeat;
+}
+
+.icon-star {
+    size: 22px 41px;
+    bgp: 0 0;
+    m: 0 0 0 20px;
+    cursor: pointer;
+    &.active {
+        bgp: -27px 0;
+    }
+}
+
+.icon-slide {
+    size: 18px 16px;
+    bgp: 0 -110px;
+}
+
+.icon-print {
+    size: 18px 18px;
+    bgp: 0 -128px;
+}
+
+.icon-fly {
+    size: 20px 20px;
+    bgp: 0 -148px;
+}
+
+.icon-return {
+    size: 19px 19px;
+    bgp: 0 -170px;
+}
+
+.icon-stop {
+    size: 18px 18px;
+
+    bgp: 0 -190px;
+}
+
+.icon-litter {
+    size: 18px 19px;
+
+    bgp: 0 -209px;
+}
+
+
+.icon-calendar {
+
+    size: 16px 16px;
+    bgp: -30px -87px;
+}
+
+.icon-bell {
+
+    size: 16px 20px;
+    bgp: -30px -110px;
+}
+
+.icon-collect {
+
+    size: 16px 21px;
+    bgp: -30px -148px;
+}
+
+.icon-voice {
+    size: 16px 16px;
+    bgp: -30px -191px;
+}
+
+.icon-part {
+
+    size: 16px 16px;
+    bgp: -30px -210px;
+}
+
+.icon-person {
+
+    size: 17px 17px;
+    bgp: -30px -234px;
+}
+
+.icon-head {
+
+    size: 17px 17px;
+    bgp: -30px -254px;
+}
+.icon-checked{
+    size:16px 16px;
+    bgp:-63px 0;
+    d:none;
+    pos:absolute;;
+    r:0;
+    b:0;
+}
+.icon-file{
+    w:16px;
+    h:18px;
+    bgp:-31px -277px;
+}
+.icon-message{
+    w:20px;
+    h:20px;
+    bgp:-70px -45px;
+    vertical-align: -7px;
+}
+.icon-small-file{
+    w:16px;
+    h:18px;
+    bgp:-70px -26px;
+    vertical-align: -3px;
+}
